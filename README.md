@@ -24,7 +24,7 @@ Dataset : [Board Games Prediction Data](https://www.kaggle.com/centipede148/boar
     Average :  6.016112849333889
 
 
-![](images/ut_pic3.png)<br/>
+![](images/pic3.png)<br/>
 
 • So we can observe some basic things like id has some correlation with average rating. Also average rating and average weight are also correlated. Also min age is correlated with average rating.
 
@@ -39,7 +39,7 @@ Dataset : [Board Games Prediction Data](https://www.kaggle.com/centipede148/boar
 • Using Random Forest Regressor I get MSE value as 1.56  which is better than the linear regression. So non linear model is achiving better result than the linear model.
     
 • Predictions of some values :
-![](images/ut_pic4.png)<br/>
+![](images/pic4.png)<br/>
 
     
     
