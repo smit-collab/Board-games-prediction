@@ -17,11 +17,13 @@ Dataset : [Board Games Prediction Data](https://www.kaggle.com/centipede148/boar
 
 ### Images
 
-![](images/.png)<br/>
+![](images/pic2.png)<br/>
 
-• The above chart shows the all seven centroids have been plotted on the map.Now these centroids can be really helpful by acting as a hub so whenever a uber recives a request for ride it can check the minimum distance to each of these centroids. 
+• The above chart shows average rating that most of the rating lies around 6. So after calculation we get
+    Standard Deviation :  1.5788299348332662
+    Average :  6.016112849333889
 
-![](images/.png)<br/>
+![](images/pic3.png)<br/>
 
 The dataset is large so only few values are printed. Mainly there are 4 columns and are described as below:
 
@@ -34,21 +36,37 @@ The dataset is large so only few values are printed. Mainly there are 4 columns 
 
 ![](images/ut_pic3.png)<br/>
 
-• In the above chart Elbow method is used to find the optimal value of k by fitting the model with a range of values for K.
+• So we can observe some basic things like id has some correlation with average rating. Also average rating and average weight are also correlated. Also min age is correlated with average rating.
 
-![](images/ut_pic4.png)<br/>
-• Analyzing the data by weekday and Frequency. 
+• Some columns like base type,name,id as they dont give useful info about the game. but they are correlated so it will somewhat affect the results of the algorithm.
 
-![](images/ut_pic5.png)<br/>
-• Analyzing hour and day together using seaborn chart.      
+ 
 
 
 
 ### Key Points
-• If we observe the chart properly then we can see that as the sum of squared distance decreases with the number of clusters  increases. After k=6 there is significant reduction. so we can choose 6 or 7 as as the cluster.<br/>
-• Predicting new location such as (40.7332,-74.2342) then it is centroid for cluster 2. 
-So the new latitude and longitude value 40.7332,-74.2342 should be assigned to the cluster 2 . This will be as distance from the centroid of cluster 2 is minimum. So the uber ride will come closer to cluster 2.
+• I have used two models Linear Regression and Random Forest to predict the average ratings for the board games.using Linear Regression we got MSE 2.08 which is not the best as the data is fairly complex so the linear model won't fit it perfectly.
+• Using Random Forest I get MSE value as 1.56  which is better than the linear regression. So non linear model is achiving better result than the linear model.
+    
+• Predictions of some values :
 
+Predictions of first 5 games using Linear regression model : 
+   Predictions
+0     8.107099
+1     9.214802
+2     8.619089
+3     7.661229
+4     9.672846
+
+
+Predictions of first 5 games using Random Forest model : 
+   Predictions
+0     8.128761
+1     8.121067
+2     7.869606
+3     7.664976
+4     7.908122
+    
     
 ## References
 
