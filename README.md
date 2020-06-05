@@ -10,7 +10,7 @@ This project is a part of the machine learning course I took on udemy. The proje
     5.Python 3
     
 ### Dataset
-Data is a collection of board game information from Board Game Geek.The dataset contains data of Board Games. The dataset has 20 columns.
+Data is a collection of board game information from Board Game Geek.The dataset contains data of Board Games. The dataset has 20 columns and 56894 rows.
 
 Dataset : [Board Games Prediction Data](https://www.kaggle.com/centipede148/board-games-prediction-data)
 
