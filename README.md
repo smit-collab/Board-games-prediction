@@ -1,6 +1,5 @@
 # Board-games-prediction
-
-This project can be useful for the board games manufacturer who might want to know what types of games people like and which games got the highest ratings.
+This project is a part of the machine learning course I took on udemy. The project can be useful for the board games manufacturer who might want to know what types of games people like and which games got the highest ratings.
 
 ### Software and Libraries:
 
@@ -20,18 +19,9 @@ Dataset : [Board Games Prediction Data](https://www.kaggle.com/centipede148/boar
 ![](images/pic2.png)<br/>
 
 • The above chart shows average rating that most of the rating lies around 6. So after calculation we get
+    
     Standard Deviation :  1.5788299348332662
     Average :  6.016112849333889
-
-![](images/pic3.png)<br/>
-
-The dataset is large so only few values are printed. Mainly there are 4 columns and are described as below:
-
-    • Date/Time : The date and time of the Uber pickup
-    • Lat : The latitude of the Uber pickup
-    • Lon : The longitude of the Uber pickup
-    • Base : The TLC base company code affiliated with the Uber pickup
-
 
 
 ![](images/ut_pic3.png)<br/>
@@ -45,32 +35,18 @@ The dataset is large so only few values are printed. Mainly there are 4 columns 
 
 
 ### Key Points
-• I have used two models Linear Regression and Random Forest to predict the average ratings for the board games.using Linear Regression we got MSE 2.08 which is not the best as the data is fairly complex so the linear model won't fit it perfectly.
-• Using Random Forest I get MSE value as 1.56  which is better than the linear regression. So non linear model is achiving better result than the linear model.
+• I have used two models Linear Regression and Random Forest Regressor to predict the average ratings for the board games.using Linear Regression we got MSE 2.08 which is not the best as the data is fairly complex so the linear model won't fit it perfectly.
+• Using Random Forest Regressor I get MSE value as 1.56  which is better than the linear regression. So non linear model is achiving better result than the linear model.
     
 • Predictions of some values :
+![](images/ut_pic4.png)<br/>
 
-Predictions of first 5 games using Linear regression model : 
-   Predictions
-0     8.107099
-1     9.214802
-2     8.619089
-3     7.661229
-4     9.672846
-
-
-Predictions of first 5 games using Random Forest model : 
-   Predictions
-0     8.128761
-1     8.121067
-2     7.869606
-3     7.664976
-4     7.908122
     
     
 ## References
 
     Wikipedia
     Datacamp
+    Udemy
     A lot of googling to figure out how to do stuff.    
 
