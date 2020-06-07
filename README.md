@@ -8,6 +8,12 @@ This project is a part of the machine learning course I took on udemy. The proje
     3.seaborn
     4.sklearn
     5.Python 3
+
+### Installation:
+   • Clone the repo to your computer.
+   • Open your terminal and navigate to the directory where the notebook is saved.
+   • Type the command jupyter notebook and find the required notebook.
+   • The notebook can also be viewed in the Google Colab.
     
 ### Dataset
 Data is a collection of board game information from Board Game Geek.The dataset contains data of Board Games. The dataset has 20 columns and 56894 rows.
