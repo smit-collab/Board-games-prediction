@@ -11,8 +11,11 @@ This project is a part of the machine learning course I took on udemy. The proje
 
 ### Installation:
    • Clone the repo to your computer.
+   
    • Open your terminal and navigate to the directory where the notebook is saved.
+   
    • Type the command jupyter notebook and find the required notebook.
+   
    • The notebook can also be viewed in the Google Colab.
     
 ### Dataset
